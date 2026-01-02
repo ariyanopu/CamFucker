@@ -1,82 +1,68 @@
-<h4 align="center"> If you find this GitHub repo useful, please consider giving it a star! ⭐️ </h4> 
-
+<!-- ===== HERO IMAGE ===== -->
 <p align="center">
-    <a href="https://facebook.com/AriYan.MirZa.Just.For.You">
-      <img src="https://img.shields.io/badge/Facebook-AriYan_MirZa-black?logo=facebook&style=for-the-badge">
-    </a>
-    &nbsp;
-    <a href="https://t.me/ariyan_mirza_tm">
-      <img src="https://img.shields.io/badge/Telegram-@ariyan__mirza__tm-black?logo=telegram&style=for-the-badge">
-    </a>
-    &nbsp;
-    <a href="https://github.com/ariyanopu">
-      <img src="https://img.shields.io/badge/GitHub-ariyanopu-black?logo=github&style=for-the-badge">
-    </a>
+  <img src="https://github.com/spyboy-productions/CamXploit/blob/main/CCTV%20recon.jpg" width="100%" />
 </p>
 
+<!-- ===== SOCIAL ICONS ===== -->
 <p align="center">
-  <img width="20%" src="https://github.com/spyboy-productions/CamXploit/blob/main/CCTV%20recon.jpg" />
+  <a href="https://facebook.com/AriYan.MirZa.Just.For.You">
+    <img src="https://img.shields.io/badge/-black?logo=facebook&style=for-the-badge">
+  </a>
+  &nbsp;
+  <a href="https://t.me/ariyan_mirza_tm">
+    <img src="https://img.shields.io/badge/-black?logo=telegram&style=for-the-badge">
+  </a>
+  &nbsp;
+  <a href="https://github.com/ariyanopu">
+    <img src="https://img.shields.io/badge/-black?logo=github&style=for-the-badge">
+  </a>
 </p>
 
 ---
 
-## 📷 CamFucker (Modified Version)
+## ▶️ Run
 
-**CamFucker** is a reconnaissance-based CCTV research tool designed to help security researchers and cyber enthusiasts identify exposed CCTV cameras on public IP addresses.
-
-It performs:
-- Massive port scanning (1000+ ports)
-- CCTV login page detection
-- Default credential testing
-- Live stream detection (RTSP / HTTP / RTMP / MMS)
-- Camera brand & DVR/NVR identification
-- IP & location intelligence with Google Maps/Earth links
-
-⚠️ **Disclaimer:**  
-This tool is strictly for **educational and authorized security testing only**.  
-Scanning systems without permission is illegal. The author is not responsible for misuse.
+➡️ Run the script and enter the **public IP address** when prompted.
 
 ---
 
-## 🚀 Features
+## 🔍 What the Tool Does
 
-✔️ Scan common & custom CCTV ports  
-✔️ Detect exposed camera login panels  
-✔️ Identify camera brands & DVR/NVR devices  
-✔️ Default credential checking  
-✔️ Live stream detection & validation  
-✔️ Google dorking & OSINT links  
-✔️ Multi-threaded scanning for speed  
-✔️ ONVIF protocol support  
-✔️ IP geolocation with map links  
-✔️ Smart brute-force protection  
+1️⃣ Scans **1000+ ports**  
+2️⃣ Detects exposed **CCTV services**  
+3️⃣ Identifies **camera login panels**  
+4️⃣ Checks **default credentials**  
+5️⃣ Detects **live camera streams**  
+6️⃣ Identifies **camera brand & protocol**  
+7️⃣ Displays **IP location & OSINT intelligence links**
 
 ---
 
-## 📚 Supported Devices
+## ⚡ Usage Tips
 
-- Hikvision  
-- Dahua  
-- CP Plus (DVR/NVR)  
-- Axis  
-- Sony  
-- Bosch  
-- Samsung  
-- Panasonic  
-- Vivotek  
-- Generic DVR / NVR / IP Cameras  
+- Scanning a large number of ports may take time depending on network speed.  
+- If no camera is detected, review the scan output for **custom or uncommon ports**.  
+- Use **VLC Media Player** to manually verify RTSP / HTTP stream URLs.  
+- Best results are achieved with a **stable internet connection**.
 
 ---
 
-## 🛠️ Installation (Termux / Linux)
+## 🧩 To-Do / Future Plans
 
-### 📱 Termux Commands
+- [ ] Logging system  
+- [ ] Screenshot capture  
+- [ ] Report generation (HTML / PDF)  
+- [ ] Network range scanning  
+- [ ] MAC address lookup  
 
-```bash
-apt update -y
-apt upgrade -y
-pkg install python -y
-pkg install git -y
-git clone https://github.com/ariyanopu/CamFucker.git
-cd CamFucker
-python CamFucker.py
+---
+
+## 🙌 Contributions
+
+Issues, feature requests, and pull requests are welcome.
+
+---
+
+<h4 align="center">
+If you find this GitHub repo useful, please consider giving it a star! ⭐️
+</h4>
