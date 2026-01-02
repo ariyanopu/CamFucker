@@ -29,10 +29,21 @@ pkg install python -y
 pkg install git -y
 git clone https://github.com/ariyanopu/CamFucker.git
 cd CamFucker
-python CamFucker.py
-➡️ Run the script and enter the **public IP address** when prompted.
+python CamFucker.py</p>
 
 ---
+
+## 🛠️ Installation & Run (Termux / Linux)
+
+```bash
+apt update -y
+apt upgrade -y
+pkg install python -y
+pkg install git -y
+git clone https://github.com/ariyanopu/CamFucker.git
+cd CamFucker
+python CamFucker.py
+➡️ Run the script and enter the **public IP address** when prompted.
 
 ## 🔍 What the Tool Does
 
